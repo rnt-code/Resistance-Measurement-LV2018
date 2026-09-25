@@ -10,6 +10,7 @@
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)@!!!*Q(C=\&gt;8.4@.1%)8B!W,".BWAN$!NJ)7U-#W%*=OU=&amp;J)#WFB7EA,;3']PBZ1B#"B!2*)M40ZYO0\]X"^Z5];R[0UI./VY`HC]&gt;X\4$?_K?ET8Z\@HT^TK3]`^J_\TCU_XO^2^&gt;&lt;I1P`0ZP`;@_81\&lt;A&gt;``NYO&lt;L*@XWPXWF[%6&amp;&amp;G5IK.%VZ+P)C,`)C,`)C.\H*47ZSEZM]S:-]S:-]S:-]S)-]S)-]S).]H/1C&amp;\H))274&amp;R-6AR9$&amp;)WBK0AK0)7H]"1?,F6Y#E`B+4S&amp;BS9K0)7H]"3?QE-X&amp;:\#5XA+4_&amp;BK#'J=:,D+4Q-,_-R(O-R(O.B3BG0!:D*T-"G%"AS.]U0YT%?Y_'HD-&gt;YD-&gt;YD)@&lt;-B\D-2\D-2[[D&amp;8RU%QH/2['5?**0)EH]31?BF&lt;C34S**`%E(K:4YEE]#3+:-"E=AJ*/390E)P%E(PZ2YEE]C3@R*"ZOD3?59W5GT833YQE]A3@Q"*\!QR!+0)%H]!3?Q-/Q#DS"*`!%HM$$6!I]A3@Q"*"A5K:8-&amp;D1-7A5")'(T^AN-:[3BS4'+@8G67^+^7:4&lt;S,VZF!`&gt;08$6$]E^?+L&amp;V7^7/J&amp;50^R;L1;IZZ%X8FKK#0@"WJ0\;ANN;(7V)J;5IOJ[Q]X0"[0/BQ/WO`XWOVWWG[XWGQW7K`87KV77C[87CQ7\[_"*]\X&amp;],]8HLB^[8[Z@_$`]#\5@=[(Z]V?A6.1'KS!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -51,5 +52,5 @@
 		<Item Name="white--constant.vi" Type="VI" URL="../white--constant.vi"/>
 		<Item Name="yellow--constant.vi" Type="VI" URL="../yellow--constant.vi"/>
 	</Item>
-	<Item Name="Resistor Band Colors Tester.vi" Type="VI" URL="../Resistor Band Colors Tester.vi"/>
+	<Item Name="Tester.vi" Type="VI" URL="../Tester.vi"/>
 </Library>
