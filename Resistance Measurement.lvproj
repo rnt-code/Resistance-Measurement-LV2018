@@ -49,7 +49,7 @@
 		</Item>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
-		<Item Name="Main2.vi" Type="VI" URL="../Main2.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="read e-series ini file.vi" Type="VI" URL="../read e-series ini file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
