@@ -36,21 +36,21 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Support VIs" Type="Folder">
-			<Item Name="e-series reader.vi" Type="VI" URL="../e-series reader.vi"/>
-			<Item Name="read csv file.vi" Type="VI" URL="../read csv file.vi"/>
+			<Item Name="E-Series Reader.vi" Type="VI" URL="../E-Series Reader.vi"/>
+			<Item Name="Read CSV File.vi" Type="VI" URL="../Read CSV File.vi"/>
 			<Item Name="read e-series file names.vi" Type="VI" URL="../../read e-series file names.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="e-series file names--control.ctl" Type="VI" URL="../e-series file names--control.ctl"/>
-			<Item Name="e-series index--control.ctl" Type="VI" URL="../e-series index--control.ctl"/>
-			<Item Name="states--control.ctl" Type="VI" URL="../states--control.ctl"/>
+			<Item Name="e-series file names--array.ctl" Type="VI" URL="../e-series file names--array.ctl"/>
+			<Item Name="e-series index--enum.ctl" Type="VI" URL="../e-series index--enum.ctl"/>
+			<Item Name="states--enum.ctl" Type="VI" URL="../states--enum.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Support VIs" Type="Folder"/>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="series data--control.ctl" Type="VI" URL="../series data--control.ctl"/>
+			<Item Name="series data--cluster.ctl" Type="VI" URL="../series data--cluster.ctl"/>
 		</Item>
 		<Item Name="load e-series.vi" Type="VI" URL="../load e-series.vi"/>
 	</Item>
