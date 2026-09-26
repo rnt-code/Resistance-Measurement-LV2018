@@ -41,14 +41,15 @@
 			<Item Name="Digit--control.ctl" Type="VI" URL="../Digit--control.ctl"/>
 			<Item Name="multiplier--control.ctl" Type="VI" URL="../multiplier--control.ctl"/>
 			<Item Name="tolerance--control.ctl" Type="VI" URL="../tolerance--control.ctl"/>
-			<Item Name="tc colors--control.ctl" Type="VI" URL="../tc colors--control.ctl"/>
-			<Item Name="band colors--control.ctl" Type="VI" URL="../band colors--control.ctl"/>
-			<Item Name="e-series--control.ctl" Type="VI" URL="../e-series--control.ctl"/>
+			<Item Name="TC colors--control.ctl" Type="VI" URL="../TC colors--control.ctl"/>
+			<Item Name="Band colors--control.ctl" Type="VI" URL="../Band colors--control.ctl"/>
+			<Item Name="E-Series--control.ctl" Type="VI" URL="../E-Series--control.ctl"/>
 			<Item Name="temp coeficient--control.ctl" Type="VI" URL="../temp coeficient--control.ctl"/>
 		</Item>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="E-Series Level--enum.ctl" Type="VI" URL="../E-Series Level--enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
