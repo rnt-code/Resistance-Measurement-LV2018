@@ -38,7 +38,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="data--control.ctl" Type="VI" URL="../data--control.ctl"/>
 			<Item Name="states--control.ctl" Type="VI" URL="../states--control.ctl"/>
-			<Item Name="digit--control.ctl" Type="VI" URL="../digit--control.ctl"/>
+			<Item Name="Digit--control.ctl" Type="VI" URL="../Digit--control.ctl"/>
 			<Item Name="multiplier--control.ctl" Type="VI" URL="../multiplier--control.ctl"/>
 			<Item Name="tolerance--control.ctl" Type="VI" URL="../tolerance--control.ctl"/>
 			<Item Name="tc colors--control.ctl" Type="VI" URL="../tc colors--control.ctl"/>
