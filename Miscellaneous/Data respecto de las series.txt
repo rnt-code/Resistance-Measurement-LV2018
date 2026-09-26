@@ -1,0 +1,9 @@
+Relación habitual entre Series E y cantidad de bandas
+
+Serie E3: 4 bandas (Usa 2 dígitos significativos). Tolerancia típica de ±20%.
+Serie E6: 4 bandas (Usa 2 dígitos significativos). Tolerancia típica de ±20%.
+Serie E12: 4 bandas (Usa 2 dígitos significativos). Tolerancia típica de ±10%.
+Serie E24: 4 bandas (Usa 2 dígitos significativos). Tolerancia típica de ±5% o ±2%. Es la serie más común en el mercado.
+Serie E48: 5 bandas (Usa 3 dígitos significativos para mayor precisión). Tolerancia típica de ±2%.
+Serie E96: 5 bandas (Usa 3 dígitos significativos). Tolerancia típica de ±1%.
+Serie E192: 5 o 6 bandas (Usa 3 dígitos significativos). Tolerancia de ±0.5%, ±0.25% o ±0.1%. La sexta banda se añade si el circuito requiere medir estabilidad por temperatura.
