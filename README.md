@@ -138,6 +138,10 @@ The application internally distinguishes five E-Series levels:
 
 The application determines the E-Series level from the resistor's number of bands and tolerance. It then verifies whether the significant-value combination obtained from the resistor bands is present in the corresponding E-Series data.
 
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/7f6b04c2-9575-4391-9e7a-d2355829bddf" />
+
+> **Note:** The E192 series is classified in this project using the standard tolerance levels of ±0.5%, ±0.25%, and ±0.1%. However, commercially available E192 resistors may also be manufactured with a ±0.05% tolerance, represented by a **Grey** tolerance band. This is treated as a specific commercial case and does not alter the E-Series Level classification used by the application.
+
 ## E-Series Configuration
 
 The E-Series configuration is externalized through an INI file.
