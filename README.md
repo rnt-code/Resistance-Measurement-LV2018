@@ -112,12 +112,15 @@ The currently implemented E-Series dataset includes:
 
 The E-Series data is not hard-coded into the application. The file names are defined through an INI configuration file, allowing the data files to be changed without modifying the LabVIEW source code.
 
-The application internally distinguishes three E-Series ranges:
+The application internally distinguishes five E-Series levels:
 
-### Lower
+### Basic
 
 - E3
 - E6
+
+### Lower
+
 - E12
 - E24
 
@@ -128,9 +131,12 @@ The application internally distinguishes three E-Series ranges:
 ### Higher
 
 - E96
+
+### Highest
+
 - E192
 
-The application verifies whether the significant-value combination obtained from the resistor bands is present in the corresponding E-Series data.
+The application determines the E-Series level from the resistor's number of bands and tolerance. It then verifies whether the significant-value combination obtained from the resistor bands is present in the corresponding E-Series data.
 
 ## E-Series Configuration
 
