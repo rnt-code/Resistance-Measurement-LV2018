@@ -38,6 +38,8 @@
 			<Item Name="In Lower Series_.vi" Type="VI" URL="../In Lower Series_.vi"/>
 			<Item Name="In Higher Series_.vi" Type="VI" URL="../In Higher Series_.vi"/>
 			<Item Name="In Middle Series_.vi" Type="VI" URL="../In Middle Series_.vi"/>
+			<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
+			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -54,8 +56,6 @@
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
-		<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
