@@ -40,6 +40,7 @@ The application then interprets the color code and calculates the nominal resist
 
 The supported resistor configurations are based on:
 
+- 3-band resistors
 - 4-band resistors
 - 5-band resistors
 - 6-band resistors
