@@ -33,6 +33,11 @@
 				<Item Name="multiplier color to multiplier value converter.vi" Type="VI" URL="../multiplier color to multiplier value converter.vi"/>
 				<Item Name="temp coef to color converter.vi" Type="VI" URL="../temp coef to color converter.vi"/>
 			</Item>
+			<Item Name="Check Number In Lower E-Series.vi" Type="VI" URL="../Check Number In Lower E-Series.vi"/>
+			<Item Name="Check Number In Middle E-Series.vi" Type="VI" URL="../Check Number In Middle E-Series.vi"/>
+			<Item Name="In Lower Series_.vi" Type="VI" URL="../In Lower Series_.vi"/>
+			<Item Name="In Higher Series_.vi" Type="VI" URL="../In Higher Series_.vi"/>
+			<Item Name="In Middle Series_.vi" Type="VI" URL="../In Middle Series_.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -41,11 +46,10 @@
 			<Item Name="digit--enum.ctl" Type="VI" URL="../digit--enum.ctl"/>
 			<Item Name="multiplier--enum.ctl" Type="VI" URL="../multiplier--enum.ctl"/>
 			<Item Name="tolerance--enum.ctl" Type="VI" URL="../tolerance--enum.ctl"/>
-			<Item Name="tc colors--enum.ctl" Type="VI" URL="../tc colors--enum.ctl"/>
-			<Item Name="band colors--cluster.ctl" Type="VI" URL="../band colors--cluster.ctl"/>
-			<Item Name="e-series--enum.ctl" Type="VI" URL="../e-series--enum.ctl"/>
 			<Item Name="temp coeficient--enum.ctl" Type="VI" URL="../temp coeficient--enum.ctl"/>
 			<Item Name="E-Series Level--enum.ctl" Type="VI" URL="../E-Series Level--enum.ctl"/>
+			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
+			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
 		</Item>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
