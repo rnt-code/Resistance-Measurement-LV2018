@@ -315,3 +315,6 @@ The first stage is already operational and approximately 90% implemented.
 The current work is focused on completing the remaining adjustments and validation of the resistor identification stage before moving forward with physical resistance measurement and tolerance verification.
 
 This repository represents the progressive development of the project, including its architecture, implementation, and future integration of measurement functionality.
+
+<img width="798" height="514" alt="image" src="https://github.com/user-attachments/assets/4db5624e-939a-4c50-bab9-43345fe0f0f2" />
+
