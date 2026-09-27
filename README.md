@@ -1,8 +1,6 @@
 # Resistance Measurement
 
-**Proyecto Integrador de la materia Prácticas Profesionalizantes III**  
-**Tecnicatura Superior en Automatización y Robótica**  
-**CENT 35 "Prof. José Julián Godoy" — Río Grande, Tierra del Fuego, Argentina**
+<img width="2172" height="495" alt="e5dde2d4-d234-4b6d-b2ef-499cbe08c8d7" src="https://github.com/user-attachments/assets/8c326b0f-75e0-4572-a42d-d7a170ba73e7" />
 
 ## Project Overview
 
@@ -317,3 +315,11 @@ The first stage is already operational and approximately 90% implemented.
 The current work is focused on completing the remaining adjustments and validation of the resistor identification stage before moving forward with physical resistance measurement and tolerance verification.
 
 This repository represents the progressive development of the project, including its architecture, implementation, and future integration of measurement functionality.
+
+<img width="798" height="514" alt="image" src="https://github.com/user-attachments/assets/4db5624e-939a-4c50-bab9-43345fe0f0f2" />
+
+<img width="1802" height="883" alt="imagen" src="https://github.com/user-attachments/assets/5e0bd19a-25ce-4efc-afa9-f52298d57909" />
+
+<img width="1847" height="878" alt="imagen" src="https://github.com/user-attachments/assets/3e5b04e5-9c2f-4cc5-9360-283e84e9732f" />
+
+
