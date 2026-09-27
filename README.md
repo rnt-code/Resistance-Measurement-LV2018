@@ -1,10 +1,6 @@
 # Resistance Measurement
 
-<h4>
-<a href="https://cent35.edu.ar/">Proyecto Integrador de la materia Prácticas Profesionalizantes III</a><br>
-<a href="https://cent35.edu.ar/">Tecnicatura Superior en Automatización y Robótica</a><br>
-<a href="https://cent35.edu.ar/">CENT 35 "Prof. José Julián Godoy" — Río Grande, Tierra del Fuego, Argentina</a>
-</h4>
+<img width="2172" height="495" alt="e5dde2d4-d234-4b6d-b2ef-499cbe08c8d7" src="https://github.com/user-attachments/assets/8c326b0f-75e0-4572-a42d-d7a170ba73e7" />
 
 ## Project Overview
 
