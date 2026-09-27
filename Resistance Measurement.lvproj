@@ -40,6 +40,10 @@
 			<Item Name="In Middle Series_.vi" Type="VI" URL="../In Middle Series_.vi"/>
 			<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
+			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
+			<Item Name="Resistance Especifications.vi" Type="VI" URL="../Resistance Especifications.vi"/>
+			<Item Name="Three Digit Nominal Vlaue Calculator.vi" Type="VI" URL="../Three Digit Nominal Vlaue Calculator.vi"/>
+			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
