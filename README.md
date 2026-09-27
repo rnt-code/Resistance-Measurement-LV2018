@@ -1,8 +1,8 @@
 # Resistance Measurement
 
-**Proyecto Integrador de la materia Prácticas Profesionalizantes III**  
-**Tecnicatura Superior en Automatización y Robótica**  
-**CENT 35 "Prof. José Julián Godoy" — Río Grande, Tierra del Fuego, Argentina**
+<font color="#2F75B5"><big>Proyecto Integrador de la materia Prácticas Profesionalizantes III</big></font>
+<font color="#2F75B5"><big>Tecnicatura Superior en Automatización y Robótica</big></font>
+<font color="#2F75B5"><big>CENT 35 "Prof. José Julián Godoy" — Río Grande, Tierra del Fuego, Argentina</big></font>
 
 ## Project Overview
 
