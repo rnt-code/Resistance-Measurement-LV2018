@@ -42,7 +42,7 @@
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
 			<Item Name="Resistance Especifications.vi" Type="VI" URL="../Resistance Especifications.vi"/>
-			<Item Name="Three Digit Nominal Vlaue Calculator.vi" Type="VI" URL="../Three Digit Nominal Vlaue Calculator.vi"/>
+			<Item Name="Three Digit Nominal Value Calculator.vi" Type="VI" URL="../Three Digit Nominal Value Calculator.vi"/>
 			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
 			<Item Name="Configure Resistor Band Visibility.vi" Type="VI" URL="../Configure Resistor Band Visibility.vi"/>
 			<Item Name="Configure Band Selector Visibility.vi" Type="VI" URL="../Configure Band Selector Visibility.vi"/>
@@ -64,6 +64,7 @@
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
