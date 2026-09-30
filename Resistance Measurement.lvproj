@@ -38,10 +38,6 @@
 			<Item Name="Resistance Especifications.vi" Type="VI" URL="../Resistance Especifications.vi"/>
 			<Item Name="Three Digit Nominal Value Calculator.vi" Type="VI" URL="../Three Digit Nominal Value Calculator.vi"/>
 			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
-			<Item Name="Configure Resistor Band Visibility.vi" Type="VI" URL="../Configure Resistor Band Visibility.vi"/>
-			<Item Name="Configure Band Selector Visibility.vi" Type="VI" URL="../Configure Band Selector Visibility.vi"/>
-			<Item Name="Configure Resistor Interface.vi" Type="VI" URL="../Configure Resistor Interface.vi"/>
-			<Item Name="Initialize Resistor Interface.vi" Type="VI" URL="../Initialize Resistor Interface.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
@@ -56,6 +52,7 @@
 			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
 			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
 		</Item>
+		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
