@@ -22,17 +22,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
+			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Enums to Color Converters" Type="Folder">
-				<Item Name="digit to color converter.vi" Type="VI" URL="../digit to color converter.vi"/>
-				<Item Name="multiplier to color converter.vi" Type="VI" URL="../multiplier to color converter.vi"/>
-				<Item Name="tolerance to color converter.vi" Type="VI" URL="../tolerance to color converter.vi"/>
-				<Item Name="multiplier color to multiplier value converter.vi" Type="VI" URL="../multiplier color to multiplier value converter.vi"/>
-				<Item Name="temp coef to color converter.vi" Type="VI" URL="../temp coef to color converter.vi"/>
-			</Item>
 			<Item Name="Check Number In Lower E-Series.vi" Type="VI" URL="../Check Number In Lower E-Series.vi"/>
 			<Item Name="Check Number In Middle E-Series.vi" Type="VI" URL="../Check Number In Middle E-Series.vi"/>
 			<Item Name="In Lower Series_.vi" Type="VI" URL="../In Lower Series_.vi"/>
@@ -41,6 +34,7 @@
 			<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
+			<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
 			<Item Name="Resistance Especifications.vi" Type="VI" URL="../Resistance Especifications.vi"/>
 			<Item Name="Three Digit Nominal Value Calculator.vi" Type="VI" URL="../Three Digit Nominal Value Calculator.vi"/>
 			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
@@ -48,6 +42,7 @@
 			<Item Name="Configure Band Selector Visibility.vi" Type="VI" URL="../Configure Band Selector Visibility.vi"/>
 			<Item Name="Configure Resistor Interface.vi" Type="VI" URL="../Configure Resistor Interface.vi"/>
 			<Item Name="Initialize Resistor Interface.vi" Type="VI" URL="../Initialize Resistor Interface.vi"/>
+			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -61,10 +56,10 @@
 			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
 			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
 		</Item>
+		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
