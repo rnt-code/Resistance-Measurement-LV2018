@@ -22,7 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
+			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
