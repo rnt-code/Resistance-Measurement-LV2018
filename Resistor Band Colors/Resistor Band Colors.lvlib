@@ -43,7 +43,7 @@
 		<Item Name="blue--constant.vi" Type="VI" URL="../blue--constant.vi"/>
 		<Item Name="brown--constant.vi" Type="VI" URL="../brown--constant.vi"/>
 		<Item Name="gold--constant.vi" Type="VI" URL="../gold--constant.vi"/>
-		<Item Name="gray--constant.vi" Type="VI" URL="../gray--constant.vi"/>
+		<Item Name="grey--constant.vi" Type="VI" URL="../grey--constant.vi"/>
 		<Item Name="green--constant.vi" Type="VI" URL="../green--constant.vi"/>
 		<Item Name="orange--constant.vi" Type="VI" URL="../orange--constant.vi"/>
 		<Item Name="red--constant.vi" Type="VI" URL="../red--constant.vi"/>
