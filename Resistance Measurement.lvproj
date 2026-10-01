@@ -35,7 +35,8 @@
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
 			<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
-			<Item Name="Resistance Especifications.vi" Type="VI" URL="../Resistance Especifications.vi"/>
+			<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
+			<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
 			<Item Name="Three Digit Nominal Value Calculator.vi" Type="VI" URL="../Three Digit Nominal Value Calculator.vi"/>
 			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
