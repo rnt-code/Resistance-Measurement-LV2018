@@ -22,7 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
+			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -37,8 +37,6 @@
 			<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
 			<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 			<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
-			<Item Name="Three Digit Nominal Value Calculator.vi" Type="VI" URL="../Three Digit Nominal Value Calculator.vi"/>
-			<Item Name="Two Digit Nominal Value Calculator.vi" Type="VI" URL="../Two Digit Nominal Value Calculator.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
