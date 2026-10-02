@@ -22,7 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
+			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -38,6 +38,8 @@
 			<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 			<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
+			<Item Name="Cipher to Number.vi" Type="VI" URL="../Cipher to Number.vi"/>
+			<Item Name="Build Resistor Ciphers.vi" Type="VI" URL="../Build Resistor Ciphers.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -50,13 +52,13 @@
 			<Item Name="E-Series Level--enum.ctl" Type="VI" URL="../E-Series Level--enum.ctl"/>
 			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
 			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
+			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Cipher to Number.vi" Type="VI" URL="../Cipher to Number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
