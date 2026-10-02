@@ -20,9 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Constants Vis" Type="Folder">
+		<Item Name="Constants VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
+			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -34,25 +34,26 @@
 			<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
-			<Item Name="Determine E-Series Level_2.vi" Type="VI" URL="../Determine E-Series Level_2.vi"/>
 			<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 			<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
 			<Item Name="Cipher to Number.vi" Type="VI" URL="../Cipher to Number.vi"/>
 			<Item Name="Build Resistor Ciphers.vi" Type="VI" URL="../Build Resistor Ciphers.vi"/>
+			<Item Name="Determine E-Series Membership.vi" Type="VI" URL="../Determine E-Series Membership.vi"/>
 		</Item>
-		<Item Name="TypeDef" Type="Folder">
+		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
-			<Item Name="states--enum.ctl" Type="VI" URL="../states--enum.ctl"/>
-			<Item Name="digit--enum.ctl" Type="VI" URL="../digit--enum.ctl"/>
-			<Item Name="multiplier--enum.ctl" Type="VI" URL="../multiplier--enum.ctl"/>
-			<Item Name="tolerance--enum.ctl" Type="VI" URL="../tolerance--enum.ctl"/>
-			<Item Name="temp coeficient--enum.ctl" Type="VI" URL="../temp coeficient--enum.ctl"/>
+			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
+			<Item Name="States--enum.ctl" Type="VI" URL="../States--enum.ctl"/>
+			<Item Name="Digit--enum.ctl" Type="VI" URL="../Digit--enum.ctl"/>
+			<Item Name="Multiplier--enum.ctl" Type="VI" URL="../Multiplier--enum.ctl"/>
+			<Item Name="Tolerance--enum.ctl" Type="VI" URL="../Tolerance--enum.ctl"/>
+			<Item Name="Temp Coeficient--enum.ctl" Type="VI" URL="../Temp Coeficient--enum.ctl"/>
 			<Item Name="E-Series Level--enum.ctl" Type="VI" URL="../E-Series Level--enum.ctl"/>
-			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
-			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
+			<Item Name="In Low Series--cluster.ctl" Type="VI" URL="../In Low Series--cluster.ctl"/>
+			<Item Name="In Mid-High Series--cluster.ctl" Type="VI" URL="../In Mid-High Series--cluster.ctl"/>
 			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
+			<Item Name="Resistance Digits--cluster.ctl" Type="VI" URL="../Resistance Digits--cluster.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
