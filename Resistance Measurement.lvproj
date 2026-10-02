@@ -22,7 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
+			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -43,15 +43,15 @@
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
-			<Item Name="States--enum.ctl" Type="VI" URL="../States--enum.ctl"/>
-			<Item Name="Digit--enum.ctl" Type="VI" URL="../Digit--enum.ctl"/>
-			<Item Name="Multiplier--enum.ctl" Type="VI" URL="../Multiplier--enum.ctl"/>
-			<Item Name="Tolerance--enum.ctl" Type="VI" URL="../Tolerance--enum.ctl"/>
-			<Item Name="Temp Coeficient--enum.ctl" Type="VI" URL="../Temp Coeficient--enum.ctl"/>
+			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
+			<Item Name="states--enum.ctl" Type="VI" URL="../states--enum.ctl"/>
+			<Item Name="digit--enum.ctl" Type="VI" URL="../digit--enum.ctl"/>
+			<Item Name="multiplier--enum.ctl" Type="VI" URL="../multiplier--enum.ctl"/>
+			<Item Name="tolerance--enum.ctl" Type="VI" URL="../tolerance--enum.ctl"/>
+			<Item Name="temp coeficient--enum.ctl" Type="VI" URL="../temp coeficient--enum.ctl"/>
 			<Item Name="E-Series Level--enum.ctl" Type="VI" URL="../E-Series Level--enum.ctl"/>
-			<Item Name="In Low Series--cluster.ctl" Type="VI" URL="../In Low Series--cluster.ctl"/>
-			<Item Name="In Mid-High Series--cluster.ctl" Type="VI" URL="../In Mid-High Series--cluster.ctl"/>
+			<Item Name="In low series--cluster.ctl" Type="VI" URL="../In low series--cluster.ctl"/>
+			<Item Name="In mid-high series--cluster.ctl" Type="VI" URL="../In mid-high series--cluster.ctl"/>
 			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
 			<Item Name="Resistance Digits--cluster.ctl" Type="VI" URL="../Resistance Digits--cluster.ctl"/>
 		</Item>
