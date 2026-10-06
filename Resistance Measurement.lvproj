@@ -20,10 +20,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Constants VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
-		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Check Number In Lower E-Series.vi" Type="VI" URL="../Check Number In Lower E-Series.vi"/>
@@ -34,12 +30,6 @@
 			<Item Name="In Basic Series_.vi" Type="VI" URL="../In Basic Series_.vi"/>
 			<Item Name="In Highest Series_.vi" Type="VI" URL="../In Highest Series_.vi"/>
 			<Item Name="Determine E-Series Level.vi" Type="VI" URL="../Determine E-Series Level.vi"/>
-			<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
-			<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
-			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>
-			<Item Name="Cipher to Number.vi" Type="VI" URL="../Cipher to Number.vi"/>
-			<Item Name="Build Resistor Ciphers.vi" Type="VI" URL="../Build Resistor Ciphers.vi"/>
-			<Item Name="Determine E-Series Membership.vi" Type="VI" URL="../Determine E-Series Membership.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -59,6 +49,7 @@
 		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
 		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
+		<Item Name="Resistance Value.lvlib" Type="Library" URL="../Resistance Value/Resistance Value.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
