@@ -33,8 +33,8 @@
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
-			<Item Name="states--enum.ctl" Type="VI" URL="../states--enum.ctl"/>
+			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
+			<Item Name="States--enum.ctl" Type="VI" URL="../States--enum.ctl"/>
 			<Item Name="Digit--enum.ctl" Type="VI" URL="../Digit--enum.ctl"/>
 			<Item Name="Multiplier--enum.ctl" Type="VI" URL="../Multiplier--enum.ctl"/>
 			<Item Name="Tolerance--enum.ctl" Type="VI" URL="../Tolerance--enum.ctl"/>
