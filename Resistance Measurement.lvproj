@@ -100,7 +100,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 			</Item>
-			<Item Name="Ddigit--enum.ctl" Type="VI" URL="../Ddigit--enum.ctl"/>
 			<Item Name="Mmultiplier--enum.ctl" Type="VI" URL="../Mmultiplier--enum.ctl"/>
 			<Item Name="Ttolerance--enum.ctl" Type="VI" URL="../Ttolerance--enum.ctl"/>
 			<Item Name="Ttemp Ccoeficient--enum.ctl" Type="VI" URL="../Ttemp Ccoeficient--enum.ctl"/>
