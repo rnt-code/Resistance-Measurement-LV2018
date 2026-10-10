@@ -52,7 +52,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Support VIs" Type="Folder"/>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="Sseries Ddata--cluster.ctl" Type="VI" URL="../Sseries Ddata--cluster.ctl"/>
+			<Item Name="Series Data--cluster.ctl" Type="VI" URL="../Series Data--cluster.ctl"/>
 		</Item>
 		<Item Name="Load E-Series.vi" Type="VI" URL="../Load E-Series.vi"/>
 	</Item>
