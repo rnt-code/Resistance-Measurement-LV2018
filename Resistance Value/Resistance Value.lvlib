@@ -46,7 +46,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Build Resistor Ciphers.vi" Type="VI" URL="../Build Resistor Ciphers.vi"/>
+		<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
+		<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 	</Item>
-	<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
-	<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 </Library>
