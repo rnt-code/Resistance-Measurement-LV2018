@@ -23,6 +23,7 @@
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="In Series_.vi" Type="VI" URL="../In Series_.vi"/>
+			<Item Name="Get Tolerance Value.vi" Type="VI" URL="../Get Tolerance Value.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
