@@ -27,11 +27,11 @@
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
-			<Item Name="digit--enum.ctl" Type="VI" URL="../digit--enum.ctl"/>
-			<Item Name="multiplier--enum.ctl" Type="VI" URL="../multiplier--enum.ctl"/>
-			<Item Name="tolerance--enum.ctl" Type="VI" URL="../tolerance--enum.ctl"/>
-			<Item Name="temp coeficient--enum.ctl" Type="VI" URL="../temp coeficient--enum.ctl"/>
+			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
+			<Item Name="Digit--enum.ctl" Type="VI" URL="../Digit--enum.ctl"/>
+			<Item Name="Multiplier--enum.ctl" Type="VI" URL="../Multiplier--enum.ctl"/>
+			<Item Name="Tolerance--enum.ctl" Type="VI" URL="../Tolerance--enum.ctl"/>
+			<Item Name="Temp Coeficient--enum.ctl" Type="VI" URL="../Temp Coeficient--enum.ctl"/>
 			<Item Name="In series--cluster.ctl" Type="VI" URL="../In series--cluster.ctl"/>
 			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
 			<Item Name="Resistance Digits--cluster.ctl" Type="VI" URL="../Resistance Digits--cluster.ctl"/>
