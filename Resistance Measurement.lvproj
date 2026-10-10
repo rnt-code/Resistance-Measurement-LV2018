@@ -100,7 +100,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 			</Item>
-			<Item Name="Ttolerance--enum.ctl" Type="VI" URL="../Ttolerance--enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
