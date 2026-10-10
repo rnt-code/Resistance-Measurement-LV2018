@@ -101,7 +101,6 @@
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 			</Item>
 			<Item Name="Ttolerance--enum.ctl" Type="VI" URL="../Ttolerance--enum.ctl"/>
-			<Item Name="Ttemp Ccoeficient--enum.ctl" Type="VI" URL="../Ttemp Ccoeficient--enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
