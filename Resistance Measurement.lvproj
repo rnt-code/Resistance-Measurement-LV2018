@@ -104,7 +104,6 @@
 			<Item Name="Mmultiplier--enum.ctl" Type="VI" URL="../Mmultiplier--enum.ctl"/>
 			<Item Name="Ttolerance--enum.ctl" Type="VI" URL="../Ttolerance--enum.ctl"/>
 			<Item Name="Ttemp Ccoeficient--enum.ctl" Type="VI" URL="../Ttemp Ccoeficient--enum.ctl"/>
-			<Item Name="Ddata--cluster.ctl" Type="VI" URL="../Ddata--cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
