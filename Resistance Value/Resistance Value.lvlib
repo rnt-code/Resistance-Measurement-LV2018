@@ -37,7 +37,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Support VIs" Type="Folder">
 			<Item Name="Constants VIs" Type="Folder">
-				<Item Name="Exponents--contant.vi" Type="VI" URL="../Exponents--contant.vi"/>
+				<Item Name="Exponents--constant.vi" Type="VI" URL="../Exponents--constant.vi"/>
 			</Item>
 			<Item Name="Cipher to Number.vi" Type="VI" URL="../Cipher to Number.vi"/>
 			<Item Name="Determine Multiplier Value.vi" Type="VI" URL="../Determine Multiplier Value.vi"/>

@@ -41,16 +41,18 @@
 			<Item Name="Read E-Series File Names.vi" Type="VI" URL="../../Read E-Series File Names.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="E-Series File Names--array.ctl" Type="VI" URL="../E-Series File Names--array.ctl"/>
-			<Item Name="E-Series Index--enum.ctl" Type="VI" URL="../E-Series Index--enum.ctl"/>
-			<Item Name="States--enum.ctl" Type="VI" URL="../States--enum.ctl"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="E-Sseries Ffile Nnames--array.ctl" Type="VI" URL="../E-Sseries Ffile Nnames--array.ctl"/>
+			<Item Name="Ee-Sseries Iindex--enum.ctl" Type="VI" URL="../Ee-Sseries Iindex--enum.ctl"/>
+			<Item Name="Sstates--enum.ctl" Type="VI" URL="../Sstates--enum.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Support VIs" Type="Folder"/>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="Series Data--cluster.ctl" Type="VI" URL="../Series Data--cluster.ctl"/>
+			<Item Name="Sseries Ddata--cluster.ctl" Type="VI" URL="../Sseries Ddata--cluster.ctl"/>
 		</Item>
 		<Item Name="Load E-Series.vi" Type="VI" URL="../Load E-Series.vi"/>
 	</Item>
