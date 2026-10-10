@@ -48,5 +48,5 @@
 		<Item Name="Build Resistor Ciphers.vi" Type="VI" URL="../Build Resistor Ciphers.vi"/>
 	</Item>
 	<Item Name="Calculate Nominal Resistance.vi" Type="VI" URL="../Calculate Nominal Resistance.vi"/>
-	<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../../Resistor Band Colors/Calculate Resistance Specs.vi"/>
+	<Item Name="Calculate Resistance Specs.vi" Type="VI" URL="../Calculate Resistance Specs.vi"/>
 </Library>
