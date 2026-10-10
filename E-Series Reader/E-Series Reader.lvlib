@@ -42,7 +42,7 @@
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="E-Sseries Ffile Nnames--array.ctl" Type="VI" URL="../E-Sseries Ffile Nnames--array.ctl"/>
+			<Item Name="E-Series File Names--array.ctl" Type="VI" URL="../E-Series File Names--array.ctl"/>
 			<Item Name="Ee-Sseries Iindex--enum.ctl" Type="VI" URL="../Ee-Sseries Iindex--enum.ctl"/>
 			<Item Name="Sstates--enum.ctl" Type="VI" URL="../Sstates--enum.ctl"/>
 		</Item>
