@@ -43,8 +43,8 @@
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="E-Series File Names--array.ctl" Type="VI" URL="../E-Series File Names--array.ctl"/>
-			<Item Name="Ee-Sseries Iindex--enum.ctl" Type="VI" URL="../Ee-Sseries Iindex--enum.ctl"/>
-			<Item Name="Sstates--enum.ctl" Type="VI" URL="../Sstates--enum.ctl"/>
+			<Item Name="E-Series Index--enum.ctl" Type="VI" URL="../E-Series Index--enum.ctl"/>
+			<Item Name="States--enum.ctl" Type="VI" URL="../States--enum.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
