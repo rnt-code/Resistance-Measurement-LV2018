@@ -24,6 +24,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="In Series_.vi" Type="VI" URL="../In Series_.vi"/>
 			<Item Name="Get Tolerance Value.vi" Type="VI" URL="../Get Tolerance Value.vi"/>
+			<Item Name="Read Parameters.vi" Type="VI" URL="../Read Parameters.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -37,8 +38,8 @@
 			<Item Name="Resistance Digits--cluster.ctl" Type="VI" URL="../Resistance Digits--cluster.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
-		<Item Name="Enum to Color Converters.lvlib" Type="Library" URL="../Enum to Color Converters/Enum to Color Converters.lvlib"/>
-		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
+		<Item Name="Resistance Color.lvlib" Type="Library" URL="../Enum to Color Converters/Resistance Color.lvlib"/>
+		<Item Name="Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Resistance Value.lvlib" Type="Library" URL="../Resistance Value/Resistance Value.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
