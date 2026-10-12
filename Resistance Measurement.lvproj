@@ -86,8 +86,8 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="In series--cluster.ctl" Type="VI" URL="../In series--cluster.ctl"/>
 			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
-			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
-			<Item Name="Resistance Specifications.ctl" Type="VI" URL="../Resistance Specifications.ctl"/>
+			<Item Name="Number of Bands--numeric.ctl" Type="VI" URL="../Number of Bands--numeric.ctl"/>
+			<Item Name="Resistance Specifications--cluster.ctl" Type="VI" URL="../Resistance Specifications--cluster.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
