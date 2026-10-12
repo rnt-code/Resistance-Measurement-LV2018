@@ -31,8 +31,6 @@
 			<Item Name="In series--cluster.ctl" Type="VI" URL="../In series--cluster.ctl"/>
 			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
 			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
-			<Item Name="Color Refnums--cluster.ctl" Type="VI" URL="../Color Refnums--cluster.ctl"/>
-			<Item Name="Color--cluster.ctl" Type="VI" URL="../Color--cluster.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
