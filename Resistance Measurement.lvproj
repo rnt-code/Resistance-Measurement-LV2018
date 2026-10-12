@@ -28,26 +28,22 @@
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
-			<Item Name="Digit--enum.ctl" Type="VI" URL="../Digit--enum.ctl"/>
-			<Item Name="Multiplier--enum.ctl" Type="VI" URL="../Multiplier--enum.ctl"/>
-			<Item Name="Tolerance--enum.ctl" Type="VI" URL="../Tolerance--enum.ctl"/>
-			<Item Name="Temp Coeficient--enum.ctl" Type="VI" URL="../Temp Coeficient--enum.ctl"/>
 			<Item Name="In series--cluster.ctl" Type="VI" URL="../In series--cluster.ctl"/>
+			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
 			<Item Name="Number of Bands--number.ctl" Type="VI" URL="../Number of Bands--number.ctl"/>
-			<Item Name="Resistance Digits--cluster.ctl" Type="VI" URL="../Resistance Digits--cluster.ctl"/>
+			<Item Name="Color Refnums--cluster.ctl" Type="VI" URL="../Color Refnums--cluster.ctl"/>
+			<Item Name="Color--cluster.ctl" Type="VI" URL="../Color--cluster.ctl"/>
 		</Item>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
-		<Item Name="Resistance Color.lvlib" Type="Library" URL="../Enum to Color Converters/Resistance Color.lvlib"/>
-		<Item Name="Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Band Colors.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Resistance Value.lvlib" Type="Library" URL="../Resistance Value/Resistance Value.lvlib"/>
+		<Item Name="Band Colors.lvlib" Type="Library" URL="../Band Colors/Band Colors.lvlib"/>
+		<Item Name="Resistance Color.lvlib" Type="Library" URL="../Enum to Color Converters/Resistance Color.lvlib"/>
+		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Measuring R with Agilent 34401A.vi" Type="VI" URL="../Measuring R with Agilent 34401A.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -97,6 +93,8 @@
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="/&lt;vilib&gt;/TABOADA/Event-Driven Queued SM/ED Queued State Machine/ED Queued State Machine.lvlib"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>

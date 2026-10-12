@@ -38,7 +38,7 @@
 		<Item Name="Support VIs" Type="Folder">
 			<Item Name="E-Series Reader.vi" Type="VI" URL="../E-Series Reader.vi"/>
 			<Item Name="Read CSV File.vi" Type="VI" URL="../Read CSV File.vi"/>
-			<Item Name="Read E-Series File Names.vi" Type="VI" URL="../../Read E-Series File Names.vi"/>
+			<Item Name="Read E-Series File Names.vi" Type="VI" URL="../Read E-Series File Names.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -54,7 +54,7 @@
 		<Item Name="Type Def" Type="Folder">
 			<Item Name="Series Data--cluster.ctl" Type="VI" URL="../Series Data--cluster.ctl"/>
 		</Item>
-		<Item Name="Load E-Series.vi" Type="VI" URL="../Load E-Series.vi"/>
+		<Item Name="load e-series.vi" Type="VI" URL="../load e-series.vi"/>
 	</Item>
 	<Item Name="Tester.vi" Type="VI" URL="../Tester.vi"/>
 </Library>

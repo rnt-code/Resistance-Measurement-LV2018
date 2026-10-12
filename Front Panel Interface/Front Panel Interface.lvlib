@@ -35,15 +35,11 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Configure Band Selector Visibility.vi" Type="VI" URL="../Configure Band Selector Visibility.vi"/>
-		<Item Name="Configure Resistor Band Visibility.vi" Type="VI" URL="../Configure Resistor Band Visibility.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Configure Band Selector Visibility_v2.vi" Type="VI" URL="../Configure Band Selector Visibility_v2.vi"/>
 		<Item Name="Configure Resistor Band Visibility_v2.vi" Type="VI" URL="../Configure Resistor Band Visibility_v2.vi"/>
-		<Item Name="Configure Resistor Interface.vi" Type="VI" URL="../Configure Resistor Interface.vi"/>
-		<Item Name="Initialize Resistor Interface.vi" Type="VI" URL="../Initialize Resistor Interface.vi"/>
 		<Item Name="Initialize Resistor Interface_v2.vi" Type="VI" URL="../Initialize Resistor Interface_v2.vi"/>
 	</Item>
 </Library>
