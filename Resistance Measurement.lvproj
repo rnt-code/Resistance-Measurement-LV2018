@@ -36,7 +36,7 @@
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Resistance Value.lvlib" Type="Library" URL="../Resistance Value/Resistance Value.lvlib"/>
 		<Item Name="Band Colors.lvlib" Type="Library" URL="../Band Colors/Band Colors.lvlib"/>
-		<Item Name="Resistance Color.lvlib" Type="Library" URL="../Enum to Color Converters/Resistance Color.lvlib"/>
+		<Item Name="Resistance Colors.lvlib" Type="Library" URL="../Resistance Colors/Resistance Colors.lvlib"/>
 		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Measuring R with Agilent 34401A.vi" Type="VI" URL="../Measuring R with Agilent 34401A.vi"/>

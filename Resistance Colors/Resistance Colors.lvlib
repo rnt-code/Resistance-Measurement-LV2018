@@ -43,9 +43,9 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="Colors Refnums--cluster.ctl" Type="VI" URL="../../Colors Refnums--cluster.ctl"/>
-			<Item Name="Colors--cluster.ctl" Type="VI" URL="../../Colors--cluster.ctl"/>
+			<Item Name="Colors Refnums--cluster.ctl" Type="VI" URL="../Colors Refnums--cluster.ctl"/>
+			<Item Name="Colors--cluster.ctl" Type="VI" URL="../Colors--cluster.ctl"/>
 		</Item>
-		<Item Name="Set Resistance Colors.vi" Type="VI" URL="../../Set Resistance Colors.vi"/>
+		<Item Name="Set Resistance Colors.vi" Type="VI" URL="../Set Resistance Colors.vi"/>
 	</Item>
 </Library>
