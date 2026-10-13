@@ -1,155 +1,75 @@
-# Resistance Measurement
+﻿# Resistance Measurement
 
 <img width="2172" height="495" alt="e5dde2d4-d234-4b6d-b2ef-499cbe08c8d7" src="https://github.com/user-attachments/assets/8c326b0f-75e0-4572-a42d-d7a170ba73e7" />
 
+
 ## Project Overview
 
-**Resistance Measurement** is a LabVIEW-based educational project developed as an integrative project for the subject **Prácticas Profesionalizantes III** of the **Tecnicatura Superior en Automatización y Robótica** at CENT 35, Río Grande, Tierra del Fuego, Argentina.
+**Resistance Measurement** is a LabVIEW educational project developed as an integrative project for **Prácticas Profesionalizantes III** in the **Tecnicatura Superior en Automatización y Robótica** at CENT 35, Río Grande, Tierra del Fuego, Argentina.
 
-The project is intended to integrate programming, instrumentation, automation, data processing, software architecture, and laboratory practices into a single practical application.
+The project brings together programming, instrumentation, automation, data processing, software architecture, and laboratory practices in a practical application. Its intended workflow is to identify a resistor from its color code, calculate its nominal resistance and tolerance, measure the physical component, and check whether the measured value falls within the admissible tolerance range.
 
-The final objective is to develop an application capable of identifying a resistor from its color code, determining its nominal resistance and tolerance, validating the corresponding E-Series, measuring the physical component, and finally verifying whether the measured resistance is within the admissible tolerance range.
-
-The project is being developed progressively, with each stage providing a functional increment toward the complete application.
+Development is incremental. The resistor-identification and calculation functionality is implemented; integration of the Agilent 34401A measurement and PASS/FAIL tolerance verification remain pending.
 
 ## Current Development Stage
 
-The project is currently in the **first development stage: resistor identification from its color code**.
+The current implementation covers resistor identification from its color code and calculation of its electrical specifications. The operator can:
 
-This stage is approximately **90% complete**. The main functionality is already operational, although some adjustments, refinements, and validation tasks remain before this stage can be considered complete.
+- Select a 3-, 4-, 5-, or 6-band resistor configuration.
+- Select the significant digit, multiplier, and tolerance colors that apply.
+- Calculate and display the nominal resistance.
+- Calculate lower and upper tolerance limits, deviation, and tolerance range.
+- Display E-Series membership indicators for the configured series data.
+- See the resistor rendered with the selected colors on the Front Panel.
 
-At this point, the application can:
+The project is now moving toward instrument integration. The VI named `Measuring R with Agilent 34401A.vi` is present in the project tree, but completion and integration of the physical measurement workflow are pending. Comparing a measured resistance with its nominal value and tolerance to produce a PASS/FAIL result is also pending.
 
-- Select the number of resistor bands.
-- Enter the color of the significant bands.
-- Enter the multiplier band.
-- Enter the tolerance band.
-- Calculate the nominal resistance value.
-- Validate the normalized value against the corresponding E-Series data.
-- Display the resistor graphically on the Front Panel.
-- Represent the entered color bands on the graphical resistor.
-- Indicate the E-Series ranges associated with the selected configuration.
+## Resistor Identification
 
-## First Stage — Resistor Identification
-
-The first stage focuses on translating the physical appearance of a resistor into its electrical parameters.
-
-The operator selects the number of bands and enters the corresponding colors.
-
-The application then interprets the color code and calculates the nominal resistance.
-
-The supported resistor configurations are based on:
+The operator selects the number of bands and enters the applicable colors. The number of bands determines which significant digits and additional parameters are used. Supported configurations are:
 
 - 3-band resistors
 - 4-band resistors
 - 5-band resistors
 - 6-band resistors
 
-The number of bands determines which significant digits and additional parameters are applicable.
-
 ### Operator Input
 
-The Front Panel provides controls for:
+The Front Panel includes controls for:
 
 - **Number of Bands**
-- **1st Digit**
-- **2nd Digit**
-- **3rd Digit** when applicable
+- **1st Digit** and **2nd Digit**
+- **3rd Digit**, when applicable
 - **Multiplier**
 - **Tolerance**
-- **INI File** containing the E-Series configuration
+- **Series Data File Name**, used to select the series data/configuration set
 
-The graphical representation of the resistor is updated according to the values selected by the operator.
+The graphical resistor updates to reflect the selected values. For six-band configurations, the color code also includes a temperature-coefficient band.
 
 ## Resistor Color Code Processing
 
-The application separates the physical color information from the interpreted electrical characteristics.
+The application keeps the physical band colors separate from the electrical characteristics interpreted from them. Band colors represent significant digits, multiplier, tolerance, and, for six-band configurations, temperature coefficient. Color values are translated into numerical values used by the calculation logic, while the graphical representation uses the same selections to render the resistor.
 
-The resistor band colors represent:
+## Nominal Resistance and Tolerance Calculation
 
-- Significant digits
-- Multiplier
-- Tolerance
-- Temperature coefficient for six-band configurations
-
-The color information is processed to obtain the corresponding numerical values used by the application.
-
-This separation allows the color representation to remain independent from the electrical interpretation of the resistor.
-
-## Nominal Resistance Calculation
-
-Once the significant digits and multiplier have been identified, the application calculates the nominal resistance.
+The application combines the significant digits with the multiplier to calculate nominal resistance, then derives the lower and upper limits from the selected tolerance.
 
 For example, a four-band resistor with:
 
-- 1st digit: Brown
-- 2nd digit: Red
-- Multiplier: Red
-- Tolerance: Gold
+- 1st digit: Orange (3)
+- 2nd digit: White (9)
+- Multiplier: Yellow (×10 k)
+- Tolerance: Gold (±5%)
 
-is interpreted as:
+has a nominal resistance of **39 × 10,000 = 390,000 Ω (390 kΩ)**. At ±5%, the displayed limits are **371 kΩ** and **410 kΩ** (rounded for display), with a deviation of **20 kΩ** and a tolerance range of **39 kΩ**. The Front Panel also shows the selected bands on the resistor graphic.
 
-**12 × 100 = 1200 Ω**
+## E-Series Data and Configuration
 
-The Front Panel displays the resulting value as:
+The application uses standard resistor E-Series data stored externally in CSV files. The current series data set covers **E3, E6, E12, E24, E48, E96, and E192**. Series data is not hard-coded: an INI configuration associates each series with the CSV file that contains its values, so files can be changed without modifying the LabVIEW source code.
 
-**1.2 kΩ**
+The application displays membership indicators for the configured series. The current design does not use an E-Series Level classification; each series is handled as its own data set.
 
-The graphical resistor is simultaneously updated to represent the selected bands.
-
-## E-Series Validation
-
-The application uses standard resistor E-Series data stored externally in CSV files.
-
-The currently implemented E-Series dataset includes:
-
-- E3
-- E6
-- E12
-- E24
-- E48
-- E96
-- E192
-
-The E-Series data is not hard-coded into the application. The file names are defined through an INI configuration file, allowing the data files to be changed without modifying the LabVIEW source code.
-
-The application internally distinguishes five E-Series levels:
-
-### Basic
-
-- E3
-- E6
-
-### Lower
-
-- E12
-- E24
-
-### Middle
-
-- E48
-
-### Higher
-
-- E96
-
-### Highest
-
-- E192
-
-The application determines the E-Series level from the resistor's number of bands and tolerance. It then verifies whether the significant-value combination obtained from the resistor bands is present in the corresponding E-Series data.
-
-<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/7f6b04c2-9575-4391-9e7a-d2355829bddf" />
-
-> **Note:** The E192 series is classified in this project using the standard tolerance levels of ±0.5%, ±0.25%, and ±0.1%. However, commercially available E192 resistors may also be manufactured with a ±0.05% tolerance, represented by a **Grey** tolerance band. This is treated as a specific commercial case and does not alter the E-Series Level classification used by the application.
-
-## E-Series Configuration
-
-The E-Series configuration is externalized through an INI file.
-
-The configuration associates each E-Series with its corresponding CSV data file.
-
-Example:
+Example INI configuration:
 
 ```ini
 [E3_Series]
@@ -174,158 +94,124 @@ Filename = E96 Series.csv
 Filename = E192 Series.csv
 ```
 
-This approach keeps configuration separate from application logic and allows the E-Series data files to be managed independently.
+The Front Panel currently exposes a **Series Data File Name** control. The ability to introduce/select the configuration file as a dedicated event-driven operation is planned for a future increment.
 
 ## Graphical Resistor Representation
 
-One of the main features already implemented in the first stage is the graphical representation of the resistor.
-
-The resistor displayed on the Front Panel changes according to the colors selected by the operator.
-
-The graphical representation therefore provides immediate visual feedback between:
-
-**Operator input → interpreted color code → calculated resistance → graphical resistor**
-
-This also allows the application to reproduce the physical appearance of the resistor being analyzed.
+The resistor graphic changes with the operator's color selections and provides immediate visual feedback between the inputs, interpreted code, calculated resistance, and physical appearance represented in the application.
 
 ## LabVIEW Project Architecture
 
-The LabVIEW project is organized into libraries and functional groups rather than keeping all functionality inside the Main VI.
-
-Current project organization includes:
+Functionality is divided into libraries and VIs rather than placed in a single monolithic VI. The project tree shown in the current project contains:
 
 ```text
 Resistance Measurement.lvproj
-│
-├── Constants Vis
-├── Support Vis
-├── TypeDef
-│
-├── Resistor Band Colors.lvlib
-│   ├── Private
-│   ├── Public
-│   └── Tester.vi
-│
-├── E-Series Reader.lvlib
-│   ├── Private
-│   ├── Public
-│   └── Tester.vi
-│
-├── Main.vi
-│
-├── Dependencies
-└── Build Specifications
+└── My Computer
+    ├── Support VIs
+    ├── Type Def
+    ├── Front Panel Interface.lvlib
+    │   ├── Private
+    │   └── Public
+    ├── E-Series Reader.lvlib
+    │   ├── Private
+    │   ├── Public
+    │   └── Tester.vi
+    ├── Resistance Value.lvlib
+    │   ├── Private
+    │   └── Public
+    ├── Band Colors.lvlib
+    │   ├── Private
+    │   ├── Public
+    │   └── Tester.vi
+    ├── Resistance Colors.lvlib
+    │   ├── Private
+    │   └── Public
+    ├── Resistance Controls.lvlib
+    │   ├── Private
+    │   └── Public
+    ├── Main.vi
+    ├── Measuring R with Agilent 34401A.vi
+    ├── Dependencies
+    └── Build Specifications
 ```
 
-### Resistor Band Colors Library
+### Front Panel Interface Library
 
-`Resistor Band Colors.lvlib` contains the color definitions used to represent resistor bands.
-
-The library provides the color constants required by the application while keeping their implementation separated from the Main VI.
+`Front Panel Interface.lvlib` groups Front Panel configuration, control, and initialization functions. It separates user-interface operations from the calculation and data-reading responsibilities.
 
 ### E-Series Reader Library
 
-`E-Series Reader.lvlib` is responsible for loading and providing the E-Series data used by the application.
+`E-Series Reader.lvlib` handles loading the configured E-Series data. Its responsibilities include reading the INI configuration, resolving CSV file names, and reading the CSV data. The tree also contains a tester VI.
 
-Its purpose is to isolate file handling and E-Series data loading from the application logic.
+### Resistance Value Library
 
-The library internally handles:
+`Resistance Value.lvlib` contains functions for calculating resistance specifications, including nominal resistance and related values such as multiplier and tolerance limits.
 
-- Reading the INI configuration.
-- Obtaining the E-Series file names.
-- Reading the CSV files.
-- Providing the resulting E-Series data to the application.
+### Band Colors Library
 
-### TypeDefs
+`Band Colors.lvlib` contains the color definitions used for resistor bands. It provides color values used by the application while keeping those definitions separate from `Main.vi`.
 
-Type definitions are used to establish consistent data structures throughout the application.
+### Resistance Colors and Resistance Controls Libraries
 
-This approach is intended to facilitate maintainability and future development as the project grows.
+`Resistance Colors.lvlib` groups color-related handling for the resistor representation. `Resistance Controls.lvlib` groups control-related functionality used by the application. These libraries establish separate functional boundaries in the current project architecture.
+
+### Type Definitions
+
+Type definitions establish consistent data structures throughout the application and support maintainability as the project grows.
+
+## Event-Driven Queued State Machine
+
+The application uses an **Event-Driven Queued State Machine (EDQSM)** in `Main.vi`. Its Front Panel event handling is decoupled from the processing states through a queue: an operator event enqueues the work required, and the state machine processes the queued states. This lets distinct event paths handle changes to the number of bands, changes to a band color, and application exit.
+
+This is an architectural change from the original sequential state machine. Once Front Panel events were introduced, the application could no longer rely on one fixed sequence for all interactions; each event can trigger its own appropriate sequence of states. A future event will support selecting or loading the configuration file containing the series data file names.
 
 ## Software Engineering Approach
 
-The project is being developed with an emphasis on software engineering practices rather than treating the application as a single monolithic VI.
-
-The architecture progressively separates:
-
-- User interface
-- Data representation
-- Configuration
-- E-Series data
-- Color definitions
-- Processing logic
-- Support functionality
-
-The project also uses LabVIEW libraries to establish functional boundaries and distinguish public functionality from private implementation details.
-
-The naming, organization, documentation, and architectural practices are being developed following the **DQMH Consortium Style Guide** as a reference for LabVIEW software development.
+The project progressively separates the user interface, data representation, configuration, E-Series data, color definitions, processing logic, and support functionality. LabVIEW libraries define functional boundaries and distinguish public functionality from private implementation details. Naming, organization, and documentation use the **DQMH Consortium Style Guide** as a reference for LabVIEW development practices.
 
 ## Current Front Panel
 
-The current Front Panel provides the operator interface for the first stage.
+The current Front Panel provides the operator interface for resistor identification and specification calculation. It includes:
 
-The main elements include:
-
-- Number of Bands selection.
-- Individual band color selection.
-- INI configuration file selection.
+- Number of bands and individual band color selections.
+- Series data file name input.
 - Graphical resistor representation.
-- E-Series validation indicators.
-- Calculated nominal resistance.
+- E-Series membership indicators.
+- Calculated nominal resistance and tolerance specifications, including lower/upper limits, deviation, and tolerance range.
 
-The application updates the displayed resistor and calculated value according to the selected input parameters.
+The displayed resistor and calculated specifications update in response to operator input. Physical measurement and PASS/FAIL tolerance verification are not yet integrated.
 
 ## Development Roadmap
 
-The complete project is intended to progress beyond resistor identification.
+### Stage 1 — Resistor Identification and Calculation
 
-The planned development includes:
+Identify a resistor from its color code and calculate its nominal resistance and tolerance specifications. The Front Panel also provides the graphical representation and configured E-Series indicators.
 
-### Stage 1 — Resistor Identification
-
-Identify the resistor from its color code and determine:
-
-- Number of bands
-- Nominal resistance
-- Tolerance
-- E-Series applicability
-- Graphical representation
-
-**Current status: approximately 90% complete.**
+**Status: implemented.**
 
 ### Stage 2 — Resistance Measurement
 
-The physical resistor will be measured using laboratory instrumentation and/or a data acquisition device.
-
-Potential instrumentation includes National Instruments hardware and laboratory measurement equipment.
+Complete and integrate measurement of the physical resistor using the **Agilent 34401A**. The project currently contains `Measuring R with Agilent 34401A.vi`; the measurement workflow remains pending.
 
 ### Stage 3 — Tolerance Verification
 
-The measured resistance will be compared with the nominal resistance and its admissible tolerance range.
-
-The application will determine whether the measured component satisfies its specified tolerance.
-
-The final verification will provide a **PASS / FAIL** result.
+Compare the measured resistance with the nominal value and its admissible tolerance limits, then report **PASS / FAIL**. This verification remains pending until the measurement path is completed and integrated.
 
 ## Technologies
 
 - **LabVIEW**
-- **NI-DAQ / Data Acquisition**
-- **Laboratory instrumentation**
-- **CSV data files**
-- **INI configuration files**
+- **Agilent 34401A** (planned measurement integration)
+- **CSV** data files
+- **INI** configuration files
 - **Git**
 - **GitHub**
 
 ## Project Status
 
-**Development status: In progress**
+**Development status: in progress**
 
-The first stage is already operational and approximately 90% implemented.
+Resistor color-code interpretation, nominal resistance calculation, tolerance-limit calculations, graphical color-band representation, and E-Series indicators are implemented. Completing and integrating measurement with the Agilent 34401A and verifying PASS/FAIL against the nominal value and tolerance remain the outstanding project stages. The project documents this progressive development from its software architecture through the planned laboratory measurement workflow.
 
-The current work is focused on completing the remaining adjustments and validation of the resistor identification stage before moving forward with physical resistance measurement and tolerance verification.
-
-This repository represents the progressive development of the project, including its architecture, implementation, and future integration of measurement functionality.
 
 <img width="798" height="514" alt="image" src="https://github.com/user-attachments/assets/4db5624e-939a-4c50-bab9-43345fe0f0f2" />
 
