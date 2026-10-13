@@ -215,8 +215,8 @@ Resistor color-code interpretation, nominal resistance calculation, tolerance-li
 
 <img width="798" height="514" alt="image" src="https://github.com/user-attachments/assets/4db5624e-939a-4c50-bab9-43345fe0f0f2" />
 
-Revision #625 
-<img width="797" height="553" alt="imagen" src="https://github.com/user-attachments/assets/1d84de11-7d50-4252-b9bd-523c542189be" />
+Revision #459 
+<img width="797" height="553" alt="imagen" src="https://github.com/user-attachments/assets/a1da6ff0-1e12-4765-a26a-aef8ffec7df1" />
 
 <img width="1802" height="883" alt="imagen" src="https://github.com/user-attachments/assets/5e0bd19a-25ce-4efc-afa9-f52298d57909" />
 
