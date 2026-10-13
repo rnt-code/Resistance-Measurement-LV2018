@@ -85,7 +85,7 @@
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="In series--cluster.ctl" Type="VI" URL="../In series--cluster.ctl"/>
-			<Item Name="Data--cluster.ctl" Type="VI" URL="../Data--cluster.ctl"/>
+			<Item Name="Data Highway--cluster.ctl" Type="VI" URL="../Data Highway--cluster.ctl"/>
 			<Item Name="Number of Bands--numeric.ctl" Type="VI" URL="../Number of Bands--numeric.ctl"/>
 			<Item Name="Resistance Specifications--cluster.ctl" Type="VI" URL="../Resistance Specifications--cluster.ctl"/>
 		</Item>
