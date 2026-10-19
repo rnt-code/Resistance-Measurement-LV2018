@@ -97,6 +97,7 @@
 		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Measuring R with Agilent 34401A.vi" Type="VI" URL="../Measuring R with Agilent 34401A.vi"/>
+		<Item Name="Read Data and Set into Control.vi" Type="VI" URL="../Read Data and Set into Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -150,6 +151,7 @@
 				<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="/&lt;vilib&gt;/TABOADA/Event-Driven Queued SM/ED Queued State Machine/ED Queued State Machine.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Config Files Management.lvlib" Type="Library" URL="/&lt;vilib&gt;/TABOADA/Config Files Management/Config Files Management/Config Files Management.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
