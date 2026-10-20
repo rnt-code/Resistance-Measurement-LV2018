@@ -98,6 +98,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Error 5010.vi" Type="VI" URL="../Error 5010.vi"/>
 		<Item Name="Check If User Data File is Empty.vi" Type="VI" URL="../Check If User Data File is Empty.vi"/>
+		<Item Name="Write User Data.vi" Type="VI" URL="../Write User Data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
