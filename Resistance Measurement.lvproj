@@ -96,9 +96,8 @@
 		<Item Name="Resistance Colors.lvlib" Type="Library" URL="../Resistance Colors/Resistance Colors.lvlib"/>
 		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Measuring R with Agilent 34401A.vi" Type="VI" URL="../Measuring R with Agilent 34401A.vi"/>
-		<Item Name="Read Data and Set into Control.vi" Type="VI" URL="../Read Data and Set into Control.vi"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+		<Item Name="Error 5010.vi" Type="VI" URL="../Error 5010.vi"/>
+		<Item Name="Check If User Data File is Empty.vi" Type="VI" URL="../Check If User Data File is Empty.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
