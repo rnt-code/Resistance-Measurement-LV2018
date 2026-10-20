@@ -98,6 +98,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Measuring R with Agilent 34401A.vi" Type="VI" URL="../Measuring R with Agilent 34401A.vi"/>
 		<Item Name="Read Data and Set into Control.vi" Type="VI" URL="../Read Data and Set into Control.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
