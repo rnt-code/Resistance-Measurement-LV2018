@@ -41,14 +41,14 @@
 			<Item Name="Off Message.png" Type="Document" URL="../Off Message.png"/>
 			<Item Name="Pass Message.png" Type="Document" URL="../Pass Message.png"/>
 		</Item>
-		<Item Name="Type Def" Type="Folder">
-			<Item Name="Result--enum.ctl" Type="VI" URL="../../Result--enum.ctl"/>
-		</Item>
 		<Item Name="Image Selector.vi" Type="VI" URL="../Image Selector.vi"/>
 		<Item Name="Initialize Display Size.vi" Type="VI" URL="../Initialize Display Size.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Type Def" Type="Folder">
+			<Item Name="Result--enum.ctl" Type="VI" URL="../Result--enum.ctl"/>
+		</Item>
 		<Item Name="Result Display.vi" Type="VI" URL="../Result Display.vi"/>
 	</Item>
 </Library>
