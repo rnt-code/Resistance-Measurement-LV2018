@@ -81,6 +81,9 @@
 			<Item Name="In Series_.vi" Type="VI" URL="../In Series_.vi"/>
 			<Item Name="Get Tolerance Value.vi" Type="VI" URL="../Get Tolerance Value.vi"/>
 			<Item Name="Read Parameters.vi" Type="VI" URL="../Read Parameters.vi"/>
+			<Item Name="Error 5010.vi" Type="VI" URL="../Error 5010.vi"/>
+			<Item Name="Check If User Data File is Empty.vi" Type="VI" URL="../Check If User Data File is Empty.vi"/>
+			<Item Name="Write User Data.vi" Type="VI" URL="../Write User Data.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -89,6 +92,7 @@
 			<Item Name="Number of Bands--numeric.ctl" Type="VI" URL="../Number of Bands--numeric.ctl"/>
 			<Item Name="Resistance Specifications--cluster.ctl" Type="VI" URL="../Resistance Specifications--cluster.ctl"/>
 		</Item>
+		<Item Name="Pass Fail Display.lvlib" Type="Library" URL="../Pass Fail Display/Pass Fail Display.lvlib"/>
 		<Item Name="Front Panel Interface.lvlib" Type="Library" URL="../Front Panel Interface/Front Panel Interface.lvlib"/>
 		<Item Name="E-Series Reader.lvlib" Type="Library" URL="../E-Series Reader/E-Series Reader.lvlib"/>
 		<Item Name="Resistance Value.lvlib" Type="Library" URL="../Resistance Value/Resistance Value.lvlib"/>
@@ -96,9 +100,6 @@
 		<Item Name="Resistance Colors.lvlib" Type="Library" URL="../Resistance Colors/Resistance Colors.lvlib"/>
 		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Error 5010.vi" Type="VI" URL="../Error 5010.vi"/>
-		<Item Name="Check If User Data File is Empty.vi" Type="VI" URL="../Check If User Data File is Empty.vi"/>
-		<Item Name="Write User Data.vi" Type="VI" URL="../Write User Data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -153,6 +154,14 @@
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Config Files Management.lvlib" Type="Library" URL="/&lt;vilib&gt;/TABOADA/Config Files Management/Config Files Management/Config Files Management.lvlib"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
