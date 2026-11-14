@@ -100,6 +100,7 @@
 		<Item Name="Resistance Colors.lvlib" Type="Library" URL="../Resistance Colors/Resistance Colors.lvlib"/>
 		<Item Name="Resistance Controls.lvlib" Type="Library" URL="../Resistor Controls/Resistance Controls.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Read User Data.vi" Type="VI" URL="../Read User Data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
