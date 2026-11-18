@@ -30,3 +30,6 @@
 # Build directories
 
 Builds/
+
+# Files
+user data.ini
